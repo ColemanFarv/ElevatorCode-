@@ -2,7 +2,7 @@
 Queens Engineering: 178, Data Structures and Algorithms Final capstone project
 
 Description: 
-Team’s 10 project is an efficient multi-elevator system which can be adapted for each unique building. 
+This project is an efficient multi-elevator system which can be adapted for each unique building. 
 
 Components Needed:
 
