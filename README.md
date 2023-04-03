@@ -1,6 +1,8 @@
 # ElevatorCode-
 Queens Engineering: 178, Data Structures and Algorithms Final capstone project
 
+Video of project working: https://queensuca-my.sharepoint.com/:v:/g/personal/21cf40_queensu_ca/ETZJQcOKksJInBri4_0KAmIBNZLjcPoI-rsat9ttv0f8xg?e=CUsbvT
+
 Description: 
 This project is an efficient multi-elevator system which can be adapted for each unique building. 
 
