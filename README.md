@@ -1,20 +1,33 @@
-# ElevatorCode-
-Queens Engineering: 178, Data Structures and Algorithms Final capstone project
+**ElevatorCode**
 
-Video of project working: https://queensuca-my.sharepoint.com/:v:/g/personal/21cf40_queensu_ca/ETZJQcOKksJInBri4_0KAmIBNZLjcPoI-rsat9ttv0f8xg?e=CUsbvT
+*Queens Engineering: 178, Data Structures and Algorithms Final Capstone Project*
 
-Description: 
-This project is an efficient multi-elevator system which can be adapted for each unique building. 
+**Description:**
 
-Components Needed:
+This project is an efficient multi-elevator system designed to minimize waiting times for users in busy buildings. It can be adapted for each unique building's requirements.
 
-Arduino H-12 wireless transeiver, Arduino lcd display and Arduino
+**Components Needed:**
 
-Overview: 
-Often people wait a long time for an elevator, especially when buildings get busy. The system Team 10 designed minimizes the waiting time for the users and which can be adapted for any building. The goal was to be able have multiple elevators, that can wirelessly communicate to determine which elevator should be called. While the elevator has been told the set of floors to go to, it can also be called so it can pick up a person from a floor on its way to decrease waiting time. Once the person gets on, they can add floors in the direction the elevator is already going. 
+- Arduino H-12 wireless transceiver
+- Arduino LCD display
+- Arduino
 
-Overall Design: 
+**Overview:**
 
-The overall design uses one Arduino as the main control system, which wirelessly communicates to three other Arduinos that act as Elevators. Each of the 3 elevator Arduinos have the same code with only their unique identifier changed (a,b,c), whereas the main control Arduino has a much more complex code with the functions for deciding where the elevators go. The main Arduino sends out a message to each Arduino approixmately every 2 seconds with the next floor destination. The elevators will also send back if they have a request when needed. Overall the current location of the elevators are shown on each LCD display and the main control shows all 3 locations. 
+Often, people experience long wait times for elevators in busy buildings. The system developed by Team 10 aims to minimize these waiting times by efficiently managing multiple elevators. The system allows elevators to wirelessly communicate to determine which elevator should be called. Additionally, elevators can be called to pick up passengers on their way to a set of floors, further reducing waiting times. Passengers can also add floors in the direction the elevator is already traveling once they are on board.
 
-Code for non-home base will be uploaded shorly
+**Overall Design:**
+
+The system comprises one Arduino serving as the main control system, which communicates wirelessly with three other Arduinos acting as elevators. Each elevator Arduino runs the same code, with only a unique identifier (a, b, c) changed. The main control Arduino has a more complex code responsible for determining elevator destinations. Approximately every 2 seconds, the main Arduino sends a message to each elevator Arduino with the next floor destination. The elevators also send back requests when needed. The current location of each elevator is displayed on LCD displays, with the main control showing all three locations.
+
+**Code:**
+
+- The code for non-home bases will be uploaded shortly.
+- `projectWiring.png` illustrates the electrical connections.
+- `homebasecode.ino` contains the code that will run on the main control Arduino.
+
+**Video Demo:**
+
+A video demonstration of the project working can be viewed [here](https://queensuca-my.sharepoint.com/:v:/g/personal/21cf40_queensu_ca/ETZJQcOKksJInBri4_0KAmIBNZLjcPoI-rsat9ttv0f8xg?e=CUsbvM).
+
+Feel free to contact the project team for further information.
